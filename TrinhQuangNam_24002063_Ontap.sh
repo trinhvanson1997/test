@@ -1,7 +1,5 @@
 #!/bin/bash
-luachon1 () {
-	ls -a /etc | grep -E "^a"
-}
+nam ngu
 
 luachon2 () {
 	date
@@ -19,6 +17,7 @@ luachon4 () {
 	done
 
 }
+dfjklasjfkdj 
 
 luachon5 () {
 	read -p "Nhap mot so nguyen x: " x
