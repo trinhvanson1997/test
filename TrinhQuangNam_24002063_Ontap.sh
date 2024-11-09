@@ -59,39 +59,6 @@ luachon6 () {
 luachon0 () {
  		exit
 }
-
-menu ()
-	while true; do
-		echo "
-	1) Hiển thị thông tin của tất cả các thư mục hoặc tệp tin bắt đầu bởi chữ cái “a”
-trong thư mục /etc.
-2) Hiển thị ngày và giờ của hệ thống
-3) Đếm số lượng tệp tin hoặc thư mục trong thư mục /etc
-4) Nhập vào một số n, tạo ra n tệp tin có tên file_1.txt, file_2.txt, ..., file_n.txt với
-nội dung lần lượt là: “Xin chào sinh viên 1”, “Xin chào sinh viên 2”, ...., “Xin
-chào sinh viên n”.
-5) Nhập vào một số nguyên x. Tính tổng số các chữ số của x
-6) Nhập vào một số nguyên x. Kiểm tra xem x có phải số nguyên tố không?
-0) Thoát khỏi menu (1đ)"
-	read -p "Nhap mot lua chon: " choice
-	case $choice in
-		1) luachon1
-		;;
-		2) luachon2
-		;;
-		3) luachon3
-		;;
-		4) luachon4
-		;;
-		5) luachon5
-		;;
-		6) luachon6
-		;;
-		0) luachon0
-		;;
-	esac
-	echo ""
-	done
 menu
 
 
